@@ -225,3 +225,21 @@ gapminder |>
 
 
 ## Data Visualization {.center}
+
+## Wiederholung alles erlenten
+```{r}
+#| echo: false
+#| results: hide
+
+library(AER)
+data(STAR)
+write_csv(STAR, "data/STAR.csv")
+```
+
+[**Arbeitsauftrag:**]{.imp}
+
+* Erstellen Sie ein neues, leeres RStudioprojekt mit dem Titel `STAR - Classroomsize Reduction`. Erstellen Sie einen Unterordner `data`. 
+* Speichern Sie dort die Datei, die Sie `r xfun::embed_file("data/STAR.csv", "STAR.csv", "hier")` herunterladen können. 
+* Erstellen Sie ein Skript namens `STAR Data Import, Wrangling und Visualisierung` und speichern Sie es in Ihrem RStudio Project auf der obersten Ebene
+* Schreiben Sie kommentierte Syntax in dieses Skript, welche Effekte der Klassengröße auf die Leistung visualisiert.
+
