@@ -220,7 +220,7 @@ gapminder |>
 
 * Erstellen Sie ein neues, leeres RStudioprojekt mit dem Titel `Gapminder`. Erstellen Sie einen Unterordner `data`. 
 * Speichern Sie dort die drei Dateien, die Sie `r xfun::embed_file("data/gapminder_50ties.RData", "gapminder_50ties.RData", "hier")`, `r xfun::embed_file("data/gapminder_non50ties.csv", "gapminder_non50ties.csv", "hier")` und `r xfun::embed_file("data/gapminder_non50ties_lifeExp.csv", "gapminder_non50ties_lifeExp.csv", "hier")` herunterladen können. 
-* Erstellen Sie ein Skript namens `Mein erster Data Import` und speichern Sie es in Ihrem Working Directory.
+* Erstellen Sie ein Skript namens `Gapminder Data Import und Wrangling` und speichern Sie es in Ihrem Working Directory.
 * Schreiben Sie kommentierte Syntax in dieses Skript, welche die beiden Datensätze importiert.
 
 
