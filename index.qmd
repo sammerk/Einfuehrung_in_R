@@ -226,7 +226,7 @@ gapminder |>
 
 ## Data Visualization {.center}
 
-## Wiederholung alles erlenten
+## Wiederholung alles erlenten {.smaller}
 ```{r}
 #| echo: false
 #| results: hide
